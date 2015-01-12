@@ -16,6 +16,8 @@
   "author": "Mike Brevoort",
   "license": "MIT",
   "dependencies": {
-    "async": "~0.2.9"
+    "async": "~0.2.9",
+    "minimist": "1.1.0",
+    "excel-export-impr": "0.4.1"
   }
 }
