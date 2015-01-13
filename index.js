@@ -6,7 +6,7 @@ var path = require('path')
 	, argv = require('minimist')(process.argv.slice(2))
 	;
 
-var projPath = path.resolve(argv[0] || '.');
+var projPath = path.resolve(argv._[0] || '.');
 
 var excelFilename = argv.x || 'Report';
 
